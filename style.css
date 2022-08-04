@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+:root{
+    --primary-color: white;
+    --secondary-color: black;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url(./burger-g62accc92e_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 2.5rem;
+    line-height: 1.5rem;
+}
+p{
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+}
+#login-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#form-widget{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vh 5vw 5vh 5vw;
+    margin: 15vh 0vw 0vh 0vw;
+    width: 30vw;
+    border-radius: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.486), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: var(--primary-color);
+    text-align: center;
+}
+#form-widget [ type = text ], [ type = password ], [ type = email ], [ type = submit ] {
+    width: 100%;
+    border-style: none;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    padding: .4em 1em;
+    outline: none;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    margin: .7vh 0vw .7vh 0vw;
+}
+#login-page-submit-button{
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: .4em 8.72em;
+    font-size: 1rem;
+    background-color: rgb(155, 155, 155);
+}
+#social-login-authentication-facebook {
+    background-color: #4267B2;
+    color: var(--primary-color);
+    border: none;
+}
+#social-login-authentication-google{
+    background-color: #DB4437;
+    color: var(--primary-color);
+    border: none;
+}
+#social-login-authentication-email{
+    background-color: grey;
+    color: var(--primary-color);
+    border: none;
+}

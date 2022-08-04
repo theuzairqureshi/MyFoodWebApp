@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+:root{
+    --primary-color: white;
+    --secondary-color: black;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.651)), url(https://thumbs.dreamstime.com/b/fast-food-concept-greasy-fried-restaurant-take-out-as-onion-rings-burger-hot-dogs-fried-chicken-french-fries-31114163.jpg);
+    background-size: 100vw 100%;
+}
+a{
+    text-decoration: none;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 120px;
+    background-color: var(--primary-color);
+}
+.nav-menu h1 {
+    font-family: 'Mukta', sans-serif;
+    cursor: pointer;
+}
+.nav-menu ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+.nav-menu ul a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+.body_page{
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+}
+.deals-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    color: var(--secondary-color);
+}
+.deals-grid img{
+    height: 45vh;
+}
+.deals-grid ul li{
+    list-style-type: none;
+    
+}
+.deals-grid-discripion{   
+    background-color: var(--primary-color);
+    padding: 2em 0em;
+    margin-top: 1em;
+}
+.deals-grid-discripion h2{   
+    color: #f7c02c;
+}
+del {
+    color: #daad33;
+}
+.btn{
+    display: inline-block;
+    background: transparent;
+    color: var(--secondary-color);
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.btn:hover{
+    border: 1px solid #f7c02c;
+    background-color: #f7c02c;
+    box-shadow: 0px 0px 15px #f7c02c ;
+    color: var(--primary-color);
+}
+footer{
+    height: 8vh;
+    margin-top: 5em;
+    padding-top: 1.2em;
+    padding-right: 120px;
+    padding-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+footer img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 1rem ;
+}

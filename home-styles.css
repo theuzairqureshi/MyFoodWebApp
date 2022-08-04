@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+:root{
+    --primary-color: white;
+    --secondary-color: black;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 120px;
+}
+.nav-menu h1 {
+    font-family: 'Mukta', sans-serif;
+    cursor: pointer;
+}
+.nav-menu ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+.nav-menu ul a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+.main-sec {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 60vh;
+    background: linear-gradient(#0000008a, #0000008a), url(./bg-img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#main {
+    display: block;
+    margin-top: 10vh;
+}
+#main h1 {
+    font-size: 4em;
+    padding-top: 5vh;
+    padding-bottom: 3.5vh;
+}
+#main p {
+    font-size: 1.2em;
+    line-height: 4vh;
+    color: white;
+}
+#main input {
+    margin-top: 3.5vh;
+    margin-right: 1%;
+    padding: 5px 30px;
+    font-weight: bold;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    transition: .3s ease-in-out;
+}
+#main input:hover {
+    border: 2px solid #f7c02c;
+    background-color: #f7c02c;
+    box-shadow: 0px 0px 15px #f7c02c ;
+}
+.our-story {
+    display: flex;
+    height: 60vh;
+}
+.our-story div {
+    padding: 100px 120px;
+    width: 50%;
+}
+.our-story div img {
+    height: 100%;
+    width: 100%;
+}
+.our-story div h1 {
+    font-size: 2.8em;
+    padding-bottom: 5vh;
+}
+.our-story div p {
+    padding-bottom: .5em;
+    line-height: 3vh;
+    font-size: 1.1em;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4px 0px;
+    padding: 0px 120px;
+    background-color: #141414;
+}
+.gallery div {
+    background-color: white;
+    height: 40vh;
+    text-align: center;
+}
+.gallery div:nth-child(odd) {
+    padding: 5vh 2vh;
+}
+.gallery div h1 {
+    padding: 2vh 0vh;
+}
+.gallery div img {
+    height: 100%;
+    width: 100%;
+}
+.gallery div h2 {
+    color: #f7c02c;
+}
+del {
+    color: #daad33;
+}
+.checked {
+    color: orange;
+}
+svg {
+    height: 3vh;
+    width: 60px;
+}
+line {
+    stroke: #000000;
+    stroke-width: 5;
+}
+footer{
+    height: 8vh;
+    padding-top: 1.2em;
+    padding-right: 120px;
+    padding-left: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+footer img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 1rem ;
+}
